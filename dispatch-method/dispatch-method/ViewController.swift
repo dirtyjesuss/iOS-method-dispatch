@@ -11,7 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        // NSObject subclass dispatch methods
+
+        let nsObjectSublass = NSObjectSubclass()
+        nsObjectSublass.directDispatchMethod()
+        nsObjectSublass.messageDispatchMethod()
+        nsObjectSublass.tableDispatchMethod()
+        nsObjectSublass.stillTableDispatchMethod()
     }
 
 
