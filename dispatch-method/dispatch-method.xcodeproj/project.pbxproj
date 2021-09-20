@@ -13,6 +13,9 @@
 		EDE0A59526F8E40900E99812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE0A59326F8E40900E99812 /* Main.storyboard */; };
 		EDE0A59726F8E40B00E99812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE0A59626F8E40B00E99812 /* Assets.xcassets */; };
 		EDE0A59A26F8E40B00E99812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE0A59826F8E40B00E99812 /* LaunchScreen.storyboard */; };
+		EDE0A5AA26F8E7B400E99812 /* TableDispatchClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5A926F8E7B400E99812 /* TableDispatchClass1.swift */; };
+		EDE0A5AC26F8E93900E99812 /* TableDispatchClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5AB26F8E93900E99812 /* TableDispatchClass2.swift */; };
+		EDE0A5AE26F8E9D000E99812 /* TableDispatchClass3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5AD26F8E9D000E99812 /* TableDispatchClass3.swift */; };
 		EDE0A5A326F8E4D700E99812 /* Class1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5A226F8E4D700E99812 /* Class1.swift */; };
 		EDE0A5A526F8E57F00E99812 /* Class2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5A426F8E57F00E99812 /* Class2.swift */; };
 		EDE0A5A726F8E66D00E99812 /* Class3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0A5A626F8E66D00E99812 /* Class3.swift */; };
@@ -27,6 +30,9 @@
 		EDE0A59626F8E40B00E99812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE0A59926F8E40B00E99812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE0A59B26F8E40B00E99812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE0A5A926F8E7B400E99812 /* TableDispatchClass1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchClass1.swift; sourceTree = "<group>"; };
+		EDE0A5AB26F8E93900E99812 /* TableDispatchClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchClass2.swift; sourceTree = "<group>"; };
+		EDE0A5AD26F8E9D000E99812 /* TableDispatchClass3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchClass3.swift; sourceTree = "<group>"; };
 		EDE0A5A226F8E4D700E99812 /* Class1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1.swift; sourceTree = "<group>"; };
 		EDE0A5A426F8E57F00E99812 /* Class2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class2.swift; sourceTree = "<group>"; };
 		EDE0A5A626F8E66D00E99812 /* Class3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class3.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 		EDE0A58C26F8E40900E99812 /* dispatch-method */ = {
 			isa = PBXGroup;
 			children = (
+				EDE0A5A826F8E79900E99812 /* Table */,
 				EDE0A5A126F8E47300E99812 /* Direct */,
 				EDE0A58D26F8E40900E99812 /* AppDelegate.swift */,
 				EDE0A58F26F8E40900E99812 /* SceneDelegate.swift */,
@@ -74,6 +81,14 @@
 			path = "dispatch-method";
 			sourceTree = "<group>";
 		};
+		EDE0A5A826F8E79900E99812 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				EDE0A5A926F8E7B400E99812 /* TableDispatchClass1.swift */,
+				EDE0A5AB26F8E93900E99812 /* TableDispatchClass2.swift */,
+				EDE0A5AD26F8E9D000E99812 /* TableDispatchClass3.swift */,
+			);
+			path = Table;
 		EDE0A5A126F8E47300E99812 /* Direct */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,10 +171,13 @@
 			files = (
 				EDE0A5A726F8E66D00E99812 /* Class3.swift in Sources */,
 				EDE0A59226F8E40900E99812 /* ViewController.swift in Sources */,
+				EDE0A5AC26F8E93900E99812 /* TableDispatchClass2.swift in Sources */,
 				EDE0A58E26F8E40900E99812 /* AppDelegate.swift in Sources */,
+				EDE0A5AE26F8E9D000E99812 /* TableDispatchClass3.swift in Sources */,
 				EDE0A5A326F8E4D700E99812 /* Class1.swift in Sources */,
 				EDE0A5A526F8E57F00E99812 /* Class2.swift in Sources */,
 				EDE0A59026F8E40900E99812 /* SceneDelegate.swift in Sources */,
+				EDE0A5AA26F8E7B400E99812 /* TableDispatchClass1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
